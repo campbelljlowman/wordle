@@ -1,6 +1,6 @@
 .horizontallist{
     display: inline-flex;
-    padding: 27px;
+    padding: 2px;
 }
 
 #verticallist{
@@ -9,20 +9,28 @@
     text-align: center;
 }
 
-#box{
+div.box{
     border-style: solid;
     border-color: gray;
-    padding: 25%;
-    margin: 1px;
+    
+    width: 2.7cm;
+    height: 2.7cm;
+}
+
+div.letter{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
 }
 
 ul#verticallist{
     line-height: 10px;
     width: 1280px;
-  }
+}
 
 #head{
     text-align: center;
     font-size: 1.2cm;
     font-weight: bold;
 }
+
